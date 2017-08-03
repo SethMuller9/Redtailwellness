@@ -1,0 +1,209 @@
+<HTML>
+<head>
+<title>Boulder Brewery Bike Tours</title>
+	<link type="text/css" rel="stylesheet" href="../CSS/MeyerReset.css"/>
+	<link rel="stylesheet" type="text/css" href="../CSS/styles.css" />
+	<meta name="viewport" content="width=device-width"/>
+</head>
+<body>
+	<h1>Boulder Brewery Bike Tours</h1>
+	<br>
+	<br>
+	<h2>Boulder, CO has a platinum status rating for bike infrastructure in America. This app allows you to pick popular breweries in Boulder, CO and map a bike route between them using the multipurpose paths and safe bike routes through town.</h2>
+	<br>
+	<br>
+	<form>
+	Pick the breweries you want to visit:
+	<br>
+	<br>
+	<input type="checkbox" id="Upslope"/>Upslope Brewing Co.
+	<br>
+	<br>
+	<input type="checkbox" id="BRU"/>BRU handbuilt ales & eats
+	<br>
+	<br>
+	<input type="checkbox" id="FATE"/>FATE Brewing Co.
+	<br>
+	<br>
+	<input type="checkbox" id="TwistedPine"/>Twisted Pine Brewing Co.
+	<br>
+	<br>
+	<input type="checkbox" id="Sanitas"/>Sanitas Brewing Co.
+	<br>
+	<br>
+	<input type="checkbox" id="BoulderBeer"/>Boulder Beer
+	<br>
+	<br>
+	<a href="#map"><input type="button" id="subm" onclick="submitall()" value="submit"/></a>
+	</form>
+	<br>
+	<br>
+	<div id="map">
+		
+		<img class="routes" id='routeBetween0And1' src="0to1.png"/>
+		<img class="routes" id='routeBetween0And2' src="0to2.png"/>
+		<img class="routes" id='routeBetween0And3' src="0to3.png"/>
+		<img class="routes" id='routeBetween0And4' src="0to4.png"/>
+		<img class="routes" id='routeBetween0And5' src="0to5.png"/>
+		<img class="routes" id='routeBetween1And2' src="1to2.png"/>
+		<img class="routes" id='routeBetween1And3' src="1to3.png"/>
+		<img class="routes" id='routeBetween1And4' src="1to4.png"/>
+		<img class="routes" id='routeBetween1And5' src="1to5.png"/>
+		<img class="routes" id='routeBetween2And3' src="2to3.png"/>
+		<img class="routes" id='routeBetween2And4' src="2to4.png"/>
+		<img class="routes" id='routeBetween2And5' src="2to5.png"/>
+		<img class="routes" id='routeBetween3And4' src="3to4.png"/>
+		<img class="routes" id='routeBetween3And5' src="3to5.png"/>
+		<img class="routes" id='routeBetween4And5' src="4to5.png"/>
+	</div>
+	<h3  class="droutes" id='directionsBetween0And1'>Upslope to BRU<br><br>1. Bike behind the brewery and connect with the South Boulder Creek Path. Head South. 
+	<br><br>
+	2. Take a right onto the multipurpose path on Arapahoe Ave. 
+	<br><br>
+	3. Cross to the south side of the street at 55th and continue heading down Arapahoe Ave. 
+	<br><br>
+	4. Turn left onto Patton Dr. and BRU will be directly on your right at the far end of the strip building.<br><br><br></h3>
+	<h3  class="droutes" id='directionsBetween0And2'>Upslope to FATE<br><br>
+	1. Bike behind the brewery and connect with the South Boulder Creek Path. Head North. 
+	<br><br>
+	2. Take a left onto the Bear Canyon Creek Path and diverge from Pearl Pkwy.
+	<br><br>
+	3. Turn right and follow Foothills Pkwy.
+	<br><br>
+	4. Take the right side of the fork that will drop you down to Walnut St. <br><br>
+	5. Turn left onto Walnut St. 
+	<br><br>
+	6. Turn left onto 38th St. and FATE will be on your left before Arapahoe Ave.<br><br><br></h3>
+	<h3  class="droutes" id='directionsBetween0And3'>Upslope to Twisted Pine<br><br>
+	1. Bike behind the brewery and connect with the South Boulder Creek Path. Head North. 
+	<br><br>
+	2. Take a left onto the Bear Canyon Creek Path and diverge from Pearl Pkwy.
+	<br><br>
+	3. Turn right and follow Foothills Pkwy.
+	<br><br>
+	4. Take the right side of the fork that will drop you down to Walnut St. <br><br>
+	5. Turn left onto Walnut St. and Twisted Pine will be on your right before 30th St.
+	<br><br><br></h3>
+	<h3  class="droutes" id='directionsBetween0And4'>Upslope to Sanitas<br><br>
+	1. Bike behind the brewery and connect with the South Boulder Creek Path. Head North. 
+	<br><br>
+	2. Take a left onto the Bear Canyon Creek Path and diverge from Pearl Pkwy.
+	<br><br>
+	3. Take a left on Frontier Ave. and Sanitas will be on your right.  
+	<br><br><br></h3>
+	<h3  class="droutes" id='directionsBetween0And5'>Upslope to Boulder Beer<br><br>
+	1. Bike behind the brewery and connect with the South Boulder Creek Path. Head North. 
+	<br><br>
+	2. Take a left onto the Bear Canyon Creek Path and diverge from Pearl Pkwy.
+	<br><br>
+	3. Turn right at the first fork and go under Pearl Pkwy.
+	<br><br>
+	4. Take a left at the first fork and cross under Foothills Pkwy.
+	<br><br>
+	5. Turn left right after the underpass and make a hard right just after the bridge onto Wilderness Pl.
+	<br><br>
+	6. Follow Wilderness Pl. around to the right and Boulder Beer will be directly ahead of you. 
+	<br><br><br></h3>
+	<h3  class="droutes" id='directionsBetween1And2'>BRU to FATE<br><br>
+	1. Turn right on Arapahoe Ave. and cross to the other side of Arapahoe at Conestoga.
+	<br><br>
+	2. Follow the bike path parallel to Arapahoe Ave. 
+	<br><br>
+	3. There will be a dirt path off to the right that takes you directly behind FATE. 
+	<br><br><br></h3>
+	<h3  class="droutes" id='directionsBetween1And3'>BRU to Twisted Pine<br><br>
+	1. Turn right on Arapahoe Ave. and cross to the other side of Arapahoe at Conestoga.
+	<br><br>
+	2. Follow the bike path parallel to Arapahoe Ave. until Foothills Pkwy. 
+	<br><br>
+	3. Take a right onto the bike path that follows Foothills. 
+	<br><br>
+	4. Take the first fork down to Walnut St. and turn left.
+	<br><br>
+	5. Twisted Pine will be on your right before 30th St.
+	<br><br><br></h3>
+	<h3  class="droutes" id='directionsBetween1And4'>BRU to Sanitas<br><br>
+	1. Turn right on Arapahoe Ave. and cross to the other side of Arapahoe at Conestoga.
+	<br><br>
+	2. Follow the bike path parallel to Arapahoe Ave. until Foothills Pkwy. 
+	<br><br>
+	3. Take a right onto the bike path that follows Foothills. 
+	<br><br>
+	4. Take a left onto Pearl Pkwy.
+	<br><br>
+	5. Take a left onto Frontier Ave. and Sanitas will be on your right.
+	<br><br><br></h3>
+	<h3  class="droutes" id='directionsBetween1And5'>BRU to Boulder Beer<br><br>
+	1. Turn right on Arapahoe Ave. and cross to the other side of Arapahoe at Conestoga.
+	<br><br>
+	2. Follow the bike path parallel to Arapahoe Ave. until Foothills Pkwy. 
+	<br><br>
+	3. Take a right onto the bike path that follows Foothills. 
+	<br><br>
+	4. Take a left on Valmont St. 
+	<br><br>
+	5. Take a left on Wilderness Pl. and Boulder Beer will be directly ahead of you. 
+	<br><br><br></h3>
+	<h3  class="droutes" id='directionsBetween2And3'>FATE to Twisted Pine<br><br>
+	1. Head North on 38th St. 
+	<br><br>
+	2. Turn left on Walnut St. and the brewery will be on your right. 
+	<br><br><br></h3>
+	<h3  class="droutes" id='directionsBetween2And4'>FATE to Sanitas<br><br>
+	1. Head North on 38th St. 
+	<br><br>
+	2. Pass under the bridge and take the bike ramp on the right that will take you up to Foothills Pkwy.
+	<br><br>
+	3. Turn right onto Foothills Pkwy. 
+	<br><br>
+	4. Turn left onto the Pearl Pkwy. multipurpose path.
+	<br><br>
+	5. Turn left onto Frontier Ave. and Sanitas will be at the east end of the building.<br><br><br></h3>
+	<h3  class="droutes" id='directionsBetween2And5'>FATE and Boulder Beer<br><br>
+	1. Head North on 38th St. 
+	<br><br>
+	2. Pass under the bridge and take the bike ramp on the right that will take you up to Foothills Pkwy. Turn right on Foothills. 
+	<br><br>
+	3. Cross to the opposite side of the street at Pearl Pkwy. and turn right again on Foothills Pkwy.
+	<br><br>
+	4. Turn left onto the bike path and look for a mural on your right.
+	<br><br>
+	5. Bike up the hill near the mural and Boulder Beer will be straight ahead of you in the loop. 
+	<br><br><br></h3>
+	<h3  class="droutes" id='directionsBetween3And4'>Twisted Pine to Sanitas<br><br>
+	1. Turn left on Walnut St. 
+	<br><br>
+	2. Pass under the bridge and take the bike ramp on the right that will take you up to Foothills Pkwy. Turn right on Foothills. 
+	<br><br>
+	3. Turn left on the multipurpose path on Pearl Pkwy. 
+	<br><br>
+	4. Turn left on Frontier Ave. and Sanitas will be at the end of the building. <br><br><br></h3>
+	<h3  class="droutes" id='directionsBetween3And5'>Twisted Pine to Boulder Beer<br><br>
+	1. Turn left onto Walnut St. 
+	<br><br>
+	2. Pass under the bridge and take the bike ramp on the right that will take you up to Foothills Pkwy. Turn right on Foothills. 
+	<br><br>
+	3. Cross to the opposite side of the street at Pearl Pkwy. and turn right again on Foothills Pkwy.
+	<br><br>
+	4. Turn left onto the bike path and look for a mural on your right.
+	<br><br>
+	5. Bike up the hill near the mural and Boulder Beer will be straight ahead of you in the loop. <br><br><br></h3>
+	<h3  class="droutes" id='directionsBetween4And5'>Sanitas to Boulder Beer<br><br>
+	1. Head down Frontier Ave. towards Pearl Pkwy. 
+	<br><br>
+	2. Turn right on Pearl Pkwy. and then cross to the left side of the street at Foothills Pkwy. and continue on. 
+	<br><br>
+	3. Turn left onto the first bike path and look for a mural on your right.
+	<br><br>
+	4. Bike up the hill near the mural and Boulder Beer will be straight ahead of you in the loop. 
+	<br><br><br></h3>
+	<a class="bottomButtons" onclick="printPage()">Print Directions</a>
+	<a class="bottomButtons" href="boulderBreweryBikeTours.html">Reset</a>
+	<br>
+	<br>
+	<h3>The creator of this site assumes no responsibility for any damages that may occur from the use of this application. &copy Seth Muller</h3>
+	<script src="../Javascript/jquery-2.1.4.js"></script>
+	<script type="text/javascript" src="../Javascript/boulderBreweryBikeTours.js"></script>
+	
+</body>
+</HTML>
