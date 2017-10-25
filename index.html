@@ -2,61 +2,117 @@
 <html>
 <head>
 	<title>SDM</title>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
-	<link type="text/css" rel="stylesheet" href="CSS/MeyerReset.css" media="screen"/>
-	<link type="text/css" rel="stylesheet" href="CSS/sethdmuller.css" media="screen"/>
+
+	<!--Bootstrap v3.3.7-->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<link rel="stylesheet/less" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.css" />
+	
+	<script src="JS/less.min.js" type="text/javascript"></script>
+	
 	<meta name="viewport" charset="utf-8" content="width=device-width"/>
 </head>
-<body>
+<body class="bg-success">
 	<div class="matterhorn">
-		<nav class="nav">
-  			<a class="nav-link active" href="#">PORTFOLIO</a>
-  			<a class="nav-link" href="#">RESUME</a>
-  			<a class="nav-link" href="#">ABOUT</a>
-  			<a class="nav-link" href="#">CONTACT</a>
+		<nav class="navbar bg-primary">
+			<div class="container-fluid">
+			  <!-- Brand and toggle get grouped for better mobile display -->
+			  <div class="navbar-header text-info">
+			    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" 	data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+			      <span class="sr-only">Toggle navigation</span>
+			      <span class="icon-bar"></span>
+			      <span class="icon-bar"></span>
+			      <span class="icon-bar"></span>
+			    </button>
+			  </div>
+	
+			  <!-- Collect the nav links, forms, and other content for toggling -->
+			  <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			    <ul class="nav navbar-nav ">
+					<li><a href="#portfolio" class="text-info">PORTFOLIO</a></li>
+			        <li><a href="#resume" class="text-info">RESUME</a></li>
+			        <li><a href="#about" class="text-info">ABOUT</a></li>
+			        <li><a href="#contact" class="text-info">CONTACT</a></li>
+			    </ul>
+			  </div><!-- /.navbar-collapse -->
+			</div><!-- /.container-fluid -->
 		</nav>
+		<img class="img-responsive" src="Images/MatterhornQ12"
+     		srcset="Images/MatterhornQ12.jpg 1650w,
+            		Images/MatterhornQ8.jpg 1000w,
+            		Images/MatterhornQ7Mobile.jpg 430w"
+     		sizes="100vw"
+     		alt="The Matterhorn" />
 		<div class="text-center">
 			<h1>Seth D. Muller</h1>
 			<h3>Front-End Web Developer</h3>
 		</div>
 	</div>
-	<div class="container">
+	<div class="portfolio container">
 		<div class="row">
-			<div class="col-xs-12 col-sm-3">
+			<div class="col-sm-3">
 				<a href="https://www.tapinfluence.com/" target="_blank">
-					fkladsjflkasldkfj
-					<img src="Images/tap-influence.svg" class="img-responsive"/>
+					<div class="tap-influence-img">
+						<img class="img-responsive" src="Images/tap-influence-lg-bw.jpg"
+     					srcset="Images/tap-influence-lg-bw.jpg 424w,
+             					Images/tap-influence-sm-bw.jpg 260w"
+     					sizes="(min-width: 768px) 30vw, 100vw"
+     					alt="TapInfluence" />
+     				</div>
 				</a>
 			</div>
-			<div class="col-xs-12 col-sm-3">
+			<div class="col-sm-3">
 				<a href="http://www.wasteexpo.com/we18/Public/Enter.aspx" target="_blank">
-					asdlf;asdlkfasf
-					<img src="small.jpg"
-     					srcset="x-large.jpg 2400w,
-     							large.jpg 1200w,
-             					medium.jpg 992w,
-             					small.jpg 768w"
-     					sizes="(min-width: 0px) 100vw,(min-width: 768px) 100vw,100vw"
-     					alt="A rad wolf" />
+					<div class="waste-expo-img">
+						<img class="img-responsive" src="Images/waste-expo-lg-bw.jpg"
+     					srcset="Images/waste-expo-lg-bw.jpg 424w,
+             					Images/waste-expo-sm-bw.jpg 260w"
+     					sizes="(min-width: 768px) 30vw, 100vw"
+     					alt="WasteExpo 2018" />
+     				</div>
 				</a>
 			</div>
 			<div class="col-sm-3">
-				<a href="https://www.tapinfluence.com/" target="_blank">
-					<img src="Images/tap-influence.svg" class="img-responsive"/>
+				<a href="http://events.tu-auto.com/autonomous/2016/Public/Enter.aspx?ID=1064739" target="_blank">
+					<div class="tu-auto-img">
+						<img class="img-responsive" src="Images/tu-automotive-lg-bw.jpg"
+     					srcset="Images/tu-automotive-lg-bw.jpg 424w,
+             					Images/tu-automotive-sm-bw.jpg 260w"
+     					sizes="(min-width: 768px) 30vw, 100vw"
+     					alt="TU Automotive" />
+     				</div>
 				</a>
 			</div>
 			<div class="col-sm-3">
-				<a href="https://www.tapinfluence.com/" target="_blank">
-					<img src="Images/tap-influence.svg" class="img-responsive"/>
+				<a href="http://www.mfgtechshow.com/mts17/public/Enter.aspx" target="_blank">
+					<div class="manufacturing-tech-img">
+						<img class="img-responsive" src="Images/manufacturing-technology-lg-bw.jpg"
+     					srcset="Images/manufacturing-technology-lg-bw.jpg 424w,
+             					Images/manufacturing-technology-sm-bw.jpg 260w"
+     					sizes="(min-width: 768px) 30vw, 100vw"
+     					alt="Manufacturing Technology Conference & Expo" />
+					</div>
 				</a>
 			</div>
 		</div>
 	</div>
+	<div class="resume">
+		<div class="container text-center center-block">
+			<img class="img-responsive" src="Images/resume-final-md.jpg"
+     			srcset="Images/resume-final-lg.jpg 2400w,
+       					Images/resume-final-md 1200w,
+       					Images/resume-final-sm 800w,
+       					Images/resume-final-xs 400w"
+     			sizes="95vw"
+   				alt="Seth Muller resume" />
+		</div>
+	</div>
+	
 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
-	<script type="text/javascript" src="Javascript/jquery-2.2.0.js">
-	</script>
-	<script type="text/javascript" src="Javascript/sethdmuller.js">.</script>
+	
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	
 </body>
 </html>

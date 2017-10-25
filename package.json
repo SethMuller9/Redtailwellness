@@ -1,0 +1,28 @@
+{
+  "name": "sethdmuller.com",
+  "version": "1.0.0",
+  "description": "personal website",
+  "main": "Gruntfile.js",
+  "dependencies": {
+    "normalize.css": "^7.0.0"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-less": "^1.4.1",
+    "grunt-contrib-watch": "^1.0.0",
+    "jit-grunt": "^0.10.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SethMuller9/SethMuller9.github.io.git"
+  },
+  "author": "Seth Muller",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SethMuller9/SethMuller9.github.io/issues"
+  },
+  "homepage": "https://github.com/SethMuller9/SethMuller9.github.io#readme"
+}
