@@ -1,1 +1,0 @@
-$("#butts").mouseenter().find("div").css("display", "block");
